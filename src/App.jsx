@@ -13,7 +13,7 @@ function App() {
 
   return (
     <MovieProvider>
-      <NavBar /> hello world!
+      <NavBar />
       <main className='main-content'>
 
         
