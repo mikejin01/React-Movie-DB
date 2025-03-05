@@ -3,13 +3,13 @@ import { createRoot } from 'react-dom/client'
 import {BrowserRouter} from 'react-router-dom'
 import './css/index.css'
 import App from './App.jsx'
-//basename="/React-Movie-DB/"
+//basename="/react-movie-db/"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
   
  
-    <BrowserRouter >
+    <BrowserRouter basename="/react-movie-db/">
   
   
         <App />
