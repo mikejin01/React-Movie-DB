@@ -1,19 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-//import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import './css/index.css'
 import App from './App.jsx'
-
+//basename="/React-Movie-DB/"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
   
  
-  {/*<BrowserRouter basename="/React-Movie-DB/">*/}
+    <BrowserRouter >
   
   
         <App />
     
-        {/*</BrowserRouter>*/}
+    </BrowserRouter>
   </StrictMode>,
 );
